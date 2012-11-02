@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9D28B116437D2400DA928F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9D28B016437D2400DA928F /* UIKit.framework */; };
+		3F9D28B316437D2400DA928F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9D28B216437D2400DA928F /* Foundation.framework */; };
+		3F9D28B516437D2400DA928F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9D28B416437D2400DA928F /* CoreGraphics.framework */; };
+		3F9D28BB16437D2400DA928F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D28B916437D2400DA928F /* InfoPlist.strings */; };
+		3F9D28BD16437D2400DA928F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D28BC16437D2400DA928F /* main.m */; };
+		3F9D28C116437D2400DA928F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D28C016437D2400DA928F /* AppDelegate.m */; };
+		3F9D28C316437D2400DA928F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D28C216437D2400DA928F /* Default.png */; };
+		3F9D28C516437D2400DA928F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D28C416437D2400DA928F /* Default@2x.png */; };
+		3F9D28C716437D2400DA928F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D28C616437D2400DA928F /* Default-568h@2x.png */; };
+		3F9D28CA16437D2400DA928F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D28C816437D2400DA928F /* MainStoryboard_iPhone.storyboard */; };
+		3F9D28CD16437D2400DA928F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D28CB16437D2400DA928F /* MainStoryboard_iPad.storyboard */; };
+		3F9D28D016437D2400DA928F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D28CF16437D2400DA928F /* ViewController.m */; };
+		3F9D28D816437D2400DA928F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9D28D716437D2400DA928F /* SenTestingKit.framework */; };
+		3F9D28D916437D2400DA928F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9D28B016437D2400DA928F /* UIKit.framework */; };
+		3F9D28DA16437D2400DA928F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9D28B216437D2400DA928F /* Foundation.framework */; };
+		3F9D28E216437D2400DA928F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D28E016437D2400DA928F /* InfoPlist.strings */; };
+		3F9D28E516437D2400DA928F /* NiteBiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D28E416437D2400DA928F /* NiteBiteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9D28DB16437D2400DA928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9D28A316437D2400DA928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9D28AB16437D2400DA928F;
+			remoteInfo = NiteBite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F9D28AC16437D2400DA928F /* NiteBite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiteBite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D28B016437D2400DA928F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F9D28B216437D2400DA928F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F9D28B416437D2400DA928F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F9D28B816437D2400DA928F /* NiteBite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NiteBite-Info.plist"; sourceTree = "<group>"; };
+		3F9D28BA16437D2400DA928F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F9D28BC16437D2400DA928F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F9D28BE16437D2400DA928F /* NiteBite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NiteBite-Prefix.pch"; sourceTree = "<group>"; };
+		3F9D28BF16437D2400DA928F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F9D28C016437D2400DA928F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F9D28C216437D2400DA928F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3F9D28C416437D2400DA928F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F9D28C616437D2400DA928F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F9D28C916437D2400DA928F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3F9D28CC16437D2400DA928F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3F9D28CE16437D2400DA928F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F9D28CF16437D2400DA928F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F9D28D616437D2400DA928F /* NiteBiteTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiteBiteTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D28D716437D2400DA928F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F9D28DF16437D2400DA928F /* NiteBiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NiteBiteTests-Info.plist"; sourceTree = "<group>"; };
+		3F9D28E116437D2400DA928F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F9D28E316437D2400DA928F /* NiteBiteTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiteBiteTests.h; sourceTree = "<group>"; };
+		3F9D28E416437D2400DA928F /* NiteBiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NiteBiteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9D28A916437D2400DA928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D28B116437D2400DA928F /* UIKit.framework in Frameworks */,
+				3F9D28B316437D2400DA928F /* Foundation.framework in Frameworks */,
+				3F9D28B516437D2400DA928F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D28D216437D2400DA928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D28D816437D2400DA928F /* SenTestingKit.framework in Frameworks */,
+				3F9D28D916437D2400DA928F /* UIKit.framework in Frameworks */,
+				3F9D28DA16437D2400DA928F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9D28A116437D2400DA928F = {
+			isa = PBXGroup;
+			children = (
+				3F9D28B616437D2400DA928F /* NiteBite */,
+				3F9D28DD16437D2400DA928F /* NiteBiteTests */,
+				3F9D28AF16437D2400DA928F /* Frameworks */,
+				3F9D28AD16437D2400DA928F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9D28AD16437D2400DA928F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D28AC16437D2400DA928F /* NiteBite.app */,
+				3F9D28D616437D2400DA928F /* NiteBiteTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9D28AF16437D2400DA928F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D28B016437D2400DA928F /* UIKit.framework */,
+				3F9D28B216437D2400DA928F /* Foundation.framework */,
+				3F9D28B416437D2400DA928F /* CoreGraphics.framework */,
+				3F9D28D716437D2400DA928F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F9D28B616437D2400DA928F /* NiteBite */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D28BF16437D2400DA928F /* AppDelegate.h */,
+				3F9D28C016437D2400DA928F /* AppDelegate.m */,
+				3F9D28C816437D2400DA928F /* MainStoryboard_iPhone.storyboard */,
+				3F9D28CB16437D2400DA928F /* MainStoryboard_iPad.storyboard */,
+				3F9D28CE16437D2400DA928F /* ViewController.h */,
+				3F9D28CF16437D2400DA928F /* ViewController.m */,
+				3F9D28B716437D2400DA928F /* Supporting Files */,
+			);
+			path = NiteBite;
+			sourceTree = "<group>";
+		};
+		3F9D28B716437D2400DA928F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D28B816437D2400DA928F /* NiteBite-Info.plist */,
+				3F9D28B916437D2400DA928F /* InfoPlist.strings */,
+				3F9D28BC16437D2400DA928F /* main.m */,
+				3F9D28BE16437D2400DA928F /* NiteBite-Prefix.pch */,
+				3F9D28C216437D2400DA928F /* Default.png */,
+				3F9D28C416437D2400DA928F /* Default@2x.png */,
+				3F9D28C616437D2400DA928F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F9D28DD16437D2400DA928F /* NiteBiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D28E316437D2400DA928F /* NiteBiteTests.h */,
+				3F9D28E416437D2400DA928F /* NiteBiteTests.m */,
+				3F9D28DE16437D2400DA928F /* Supporting Files */,
+			);
+			path = NiteBiteTests;
+			sourceTree = "<group>";
+		};
+		3F9D28DE16437D2400DA928F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D28DF16437D2400DA928F /* NiteBiteTests-Info.plist */,
+				3F9D28E016437D2400DA928F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9D28AB16437D2400DA928F /* NiteBite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9D28E816437D2400DA928F /* Build configuration list for PBXNativeTarget "NiteBite" */;
+			buildPhases = (
+				3F9D28A816437D2400DA928F /* Sources */,
+				3F9D28A916437D2400DA928F /* Frameworks */,
+				3F9D28AA16437D2400DA928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiteBite;
+			productName = NiteBite;
+			productReference = 3F9D28AC16437D2400DA928F /* NiteBite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9D28D516437D2400DA928F /* NiteBiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9D28EB16437D2400DA928F /* Build configuration list for PBXNativeTarget "NiteBiteTests" */;
+			buildPhases = (
+				3F9D28D116437D2400DA928F /* Sources */,
+				3F9D28D216437D2400DA928F /* Frameworks */,
+				3F9D28D316437D2400DA928F /* Resources */,
+				3F9D28D416437D2400DA928F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9D28DC16437D2400DA928F /* PBXTargetDependency */,
+			);
+			name = NiteBiteTests;
+			productName = NiteBiteTests;
+			productReference = 3F9D28D616437D2400DA928F /* NiteBiteTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9D28A316437D2400DA928F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jeremy Cohen";
+			};
+			buildConfigurationList = 3F9D28A616437D2400DA928F /* Build configuration list for PBXProject "NiteBite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F9D28A116437D2400DA928F;
+			productRefGroup = 3F9D28AD16437D2400DA928F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9D28AB16437D2400DA928F /* NiteBite */,
+				3F9D28D516437D2400DA928F /* NiteBiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9D28AA16437D2400DA928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D28BB16437D2400DA928F /* InfoPlist.strings in Resources */,
+				3F9D28C316437D2400DA928F /* Default.png in Resources */,
+				3F9D28C516437D2400DA928F /* Default@2x.png in Resources */,
+				3F9D28C716437D2400DA928F /* Default-568h@2x.png in Resources */,
+				3F9D28CA16437D2400DA928F /* MainStoryboard_iPhone.storyboard in Resources */,
+				3F9D28CD16437D2400DA928F /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D28D316437D2400DA928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D28E216437D2400DA928F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F9D28D416437D2400DA928F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9D28A816437D2400DA928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D28BD16437D2400DA928F /* main.m in Sources */,
+				3F9D28C116437D2400DA928F /* AppDelegate.m in Sources */,
+				3F9D28D016437D2400DA928F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D28D116437D2400DA928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D28E516437D2400DA928F /* NiteBiteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9D28DC16437D2400DA928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9D28AB16437D2400DA928F /* NiteBite */;
+			targetProxy = 3F9D28DB16437D2400DA928F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F9D28B916437D2400DA928F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9D28BA16437D2400DA928F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F9D28C816437D2400DA928F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9D28C916437D2400DA928F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9D28CB16437D2400DA928F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9D28CC16437D2400DA928F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9D28E016437D2400DA928F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9D28E116437D2400DA928F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9D28E616437D2400DA928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F9D28E716437D2400DA928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9D28E916437D2400DA928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiteBite/NiteBite-Prefix.pch";
+				INFOPLIST_FILE = "NiteBite/NiteBite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F9D28EA16437D2400DA928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiteBite/NiteBite-Prefix.pch";
+				INFOPLIST_FILE = "NiteBite/NiteBite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F9D28EC16437D2400DA928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NiteBite.app/NiteBite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiteBite/NiteBite-Prefix.pch";
+				INFOPLIST_FILE = "NiteBiteTests/NiteBiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3F9D28ED16437D2400DA928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NiteBite.app/NiteBite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiteBite/NiteBite-Prefix.pch";
+				INFOPLIST_FILE = "NiteBiteTests/NiteBiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9D28A616437D2400DA928F /* Build configuration list for PBXProject "NiteBite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D28E616437D2400DA928F /* Debug */,
+				3F9D28E716437D2400DA928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9D28E816437D2400DA928F /* Build configuration list for PBXNativeTarget "NiteBite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D28E916437D2400DA928F /* Debug */,
+				3F9D28EA16437D2400DA928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F9D28EB16437D2400DA928F /* Build configuration list for PBXNativeTarget "NiteBiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D28EC16437D2400DA928F /* Debug */,
+				3F9D28ED16437D2400DA928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9D28A316437D2400DA928F /* Project object */;
+}
