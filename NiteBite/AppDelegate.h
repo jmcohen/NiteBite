@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Settings.h"
+#import <CoreLocation/CoreLocation.h>
+@class PlacesEngine;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    Settings *settings;
+    PlacesEngine *placesEngine;
+    CLLocationManager *locationManager;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) Settings *settings;
+@property (strong, nonatomic) PlacesEngine *placesEngine;
+@property (strong, nonatomic) CLLocationManager *locationManager;
 
 @end
